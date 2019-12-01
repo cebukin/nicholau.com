@@ -10,11 +10,17 @@ html {
   position: relative;
   background-color: black;
 }
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
 .imageContainer{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height: 100%;
 }
 .imageContainer:not(:first-child) {
   /* Hide all images except the first */
